@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FCA0BB48E7D3CF9E46C71A7 /* Pods_RAC_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DCCDC796B5776109C3AB65 /* Pods_RAC_First.framework */; };
 		BFCE00281DC1B0E6009E8485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE00271DC1B0E6009E8485 /* main.m */; };
 		BFCE002B1DC1B0E6009E8485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE002A1DC1B0E6009E8485 /* AppDelegate.m */; };
 		BFCE002E1DC1B0E6009E8485 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE002D1DC1B0E6009E8485 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		BFCE00361DC1B0E6009E8485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCE00341DC1B0E6009E8485 /* LaunchScreen.storyboard */; };
 		BFCE00411DC1B0E6009E8485 /* RAC_FirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE00401DC1B0E6009E8485 /* RAC_FirstTests.m */; };
 		BFCE004C1DC1B0E6009E8485 /* RAC_FirstUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE004B1DC1B0E6009E8485 /* RAC_FirstUITests.m */; };
+		BFCE00601DC1B4A0009E8485 /* JMCaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE005F1DC1B4A0009E8485 /* JMCaculator.m */; };
+		BFCE00641DC1D365009E8485 /* JMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE00631DC1D365009E8485 /* JMSecondViewController.m */; };
+		BFCE00691DC1DE4B009E8485 /* Contact.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFCE00681DC1DE4B009E8485 /* Contact.plist */; };
+		BFCE006E1DC1DFEE009E8485 /* JMContactModels.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE006D1DC1DFEE009E8485 /* JMContactModels.m */; };
+		BFCE00721DC1F8AD009E8485 /* JMRedView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE00711DC1F8AD009E8485 /* JMRedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D61FA8CC79211AD56B768D2 /* Pods-RAC_First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_First.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_First/Pods-RAC_First.release.xcconfig"; sourceTree = "<group>"; };
+		343D55891F34D21487EE0F22 /* Pods-RAC_First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_First/Pods-RAC_First.debug.xcconfig"; sourceTree = "<group>"; };
 		BFCE00231DC1B0E6009E8485 /* RAC_First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAC_First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCE00271DC1B0E6009E8485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFCE00291DC1B0E6009E8485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,17 @@
 		BFCE00471DC1B0E6009E8485 /* RAC_FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAC_FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCE004B1DC1B0E6009E8485 /* RAC_FirstUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_FirstUITests.m; sourceTree = "<group>"; };
 		BFCE004D1DC1B0E6009E8485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCE005E1DC1B4A0009E8485 /* JMCaculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCaculator.h; sourceTree = "<group>"; };
+		BFCE005F1DC1B4A0009E8485 /* JMCaculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCaculator.m; sourceTree = "<group>"; };
+		BFCE00611DC1CD2E009E8485 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFCE00621DC1D365009E8485 /* JMSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSecondViewController.h; sourceTree = "<group>"; };
+		BFCE00631DC1D365009E8485 /* JMSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSecondViewController.m; sourceTree = "<group>"; };
+		BFCE00681DC1DE4B009E8485 /* Contact.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contact.plist; sourceTree = "<group>"; };
+		BFCE006C1DC1DFEE009E8485 /* JMContactModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMContactModels.h; sourceTree = "<group>"; };
+		BFCE006D1DC1DFEE009E8485 /* JMContactModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMContactModels.m; sourceTree = "<group>"; };
+		BFCE00701DC1F8AD009E8485 /* JMRedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRedView.h; sourceTree = "<group>"; };
+		BFCE00711DC1F8AD009E8485 /* JMRedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRedView.m; sourceTree = "<group>"; };
+		C5DCCDC796B5776109C3AB65 /* Pods_RAC_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCA0BB48E7D3CF9E46C71A7 /* Pods_RAC_First.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A0960B6ABF6FB2F3CEEA977 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				343D55891F34D21487EE0F22 /* Pods-RAC_First.debug.xcconfig */,
+				1D61FA8CC79211AD56B768D2 /* Pods-RAC_First.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEBD4C2F7D44F1AD4A7658E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5DCCDC796B5776109C3AB65 /* Pods_RAC_First.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFCE001A1DC1B0E6009E8485 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				BFCE003F1DC1B0E6009E8485 /* RAC_FirstTests */,
 				BFCE004A1DC1B0E6009E8485 /* RAC_FirstUITests */,
 				BFCE00241DC1B0E6009E8485 /* Products */,
+				3A0960B6ABF6FB2F3CEEA977 /* Pods */,
+				AEBD4C2F7D44F1AD4A7658E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +140,13 @@
 		BFCE00251DC1B0E6009E8485 /* RAC_First */ = {
 			isa = PBXGroup;
 			children = (
+				BFCE005C1DC1B4A0009E8485 /* Classes */,
 				BFCE00291DC1B0E6009E8485 /* AppDelegate.h */,
 				BFCE002A1DC1B0E6009E8485 /* AppDelegate.m */,
 				BFCE002C1DC1B0E6009E8485 /* ViewController.h */,
 				BFCE002D1DC1B0E6009E8485 /* ViewController.m */,
+				BFCE00621DC1D365009E8485 /* JMSecondViewController.h */,
+				BFCE00631DC1D365009E8485 /* JMSecondViewController.m */,
 				BFCE002F1DC1B0E6009E8485 /* Main.storyboard */,
 				BFCE00321DC1B0E6009E8485 /* Assets.xcassets */,
 				BFCE00341DC1B0E6009E8485 /* LaunchScreen.storyboard */,
@@ -118,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				BFCE00271DC1B0E6009E8485 /* main.m */,
+				BFCE00611DC1CD2E009E8485 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +183,52 @@
 			path = RAC_FirstUITests;
 			sourceTree = "<group>";
 		};
+		BFCE005C1DC1B4A0009E8485 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFCE00671DC1DE23009E8485 /* source */,
+				BFCE005D1DC1B4A0009E8485 /* 01_caculator */,
+				BFCE006B1DC1DFDB009E8485 /* Models */,
+				BFCE006F1DC1F89D009E8485 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BFCE005D1DC1B4A0009E8485 /* 01_caculator */ = {
+			isa = PBXGroup;
+			children = (
+				BFCE005E1DC1B4A0009E8485 /* JMCaculator.h */,
+				BFCE005F1DC1B4A0009E8485 /* JMCaculator.m */,
+			);
+			path = 01_caculator;
+			sourceTree = "<group>";
+		};
+		BFCE00671DC1DE23009E8485 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				BFCE00681DC1DE4B009E8485 /* Contact.plist */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		BFCE006B1DC1DFDB009E8485 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFCE006C1DC1DFEE009E8485 /* JMContactModels.h */,
+				BFCE006D1DC1DFEE009E8485 /* JMContactModels.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFCE006F1DC1F89D009E8485 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFCE00701DC1F8AD009E8485 /* JMRedView.h */,
+				BFCE00711DC1F8AD009E8485 /* JMRedView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFCE00501DC1B0E6009E8485 /* Build configuration list for PBXNativeTarget "RAC_First" */;
 			buildPhases = (
+				C24C95F21274A78319E5B94E /* [CP] Check Pods Manifest.lock */,
 				BFCE001F1DC1B0E6009E8485 /* Sources */,
 				BFCE00201DC1B0E6009E8485 /* Frameworks */,
 				BFCE00211DC1B0E6009E8485 /* Resources */,
+				7A05A38A5FD231523BEAFBD6 /* [CP] Embed Pods Frameworks */,
+				235B9726DDA65701C244A45E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +294,7 @@
 		BFCE001B1DC1B0E6009E8485 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JM;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = jimmy;
 				TargetAttributes = {
@@ -246,6 +339,7 @@
 				BFCE00361DC1B0E6009E8485 /* LaunchScreen.storyboard in Resources */,
 				BFCE00331DC1B0E6009E8485 /* Assets.xcassets in Resources */,
 				BFCE00311DC1B0E6009E8485 /* Main.storyboard in Resources */,
+				BFCE00691DC1DE4B009E8485 /* Contact.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +359,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		235B9726DDA65701C244A45E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC_First/Pods-RAC_First-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A05A38A5FD231523BEAFBD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC_First/Pods-RAC_First-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C24C95F21274A78319E5B94E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFCE001F1DC1B0E6009E8485 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BFCE002E1DC1B0E6009E8485 /* ViewController.m in Sources */,
+				BFCE00601DC1B4A0009E8485 /* JMCaculator.m in Sources */,
+				BFCE00641DC1D365009E8485 /* JMSecondViewController.m in Sources */,
+				BFCE00721DC1F8AD009E8485 /* JMRedView.m in Sources */,
 				BFCE002B1DC1B0E6009E8485 /* AppDelegate.m in Sources */,
 				BFCE00281DC1B0E6009E8485 /* main.m in Sources */,
+				BFCE006E1DC1DFEE009E8485 /* JMContactModels.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +559,10 @@
 		};
 		BFCE00511DC1B0E6009E8485 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343D55891F34D21487EE0F22 /* Pods-RAC_First.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = RAC_First/PrefixHeader.pch;
 				INFOPLIST_FILE = RAC_First/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fnou123.RAC-First";
@@ -424,8 +572,10 @@
 		};
 		BFCE00521DC1B0E6009E8485 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D61FA8CC79211AD56B768D2 /* Pods-RAC_First.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = RAC_First/PrefixHeader.pch;
 				INFOPLIST_FILE = RAC_First/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fnou123.RAC-First";
@@ -498,6 +648,7 @@
 				BFCE00521DC1B0E6009E8485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFCE00531DC1B0E6009E8485 /* Build configuration list for PBXNativeTarget "RAC_FirstTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +657,7 @@
 				BFCE00551DC1B0E6009E8485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFCE00561DC1B0E6009E8485 /* Build configuration list for PBXNativeTarget "RAC_FirstUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +666,7 @@
 				BFCE00581DC1B0E6009E8485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
